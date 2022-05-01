@@ -121,11 +121,11 @@ ul li {
     list-style-type: disc;
 }
 
-section.energiaCinetica div.video {
+div.energiaCinetica div.video {
     text-align: center;
 }
 
-section.energiaCinetica div.video video {
+div.energiaCinetica div.video video {
     width: 60%;
     margin-bottom: 5%;
 }

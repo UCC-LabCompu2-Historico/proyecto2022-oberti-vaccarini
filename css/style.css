@@ -51,6 +51,7 @@ h4 {
 main section#imagenyFormulario {
     padding-top: 5%;
     background-image: url(./../img/fondocarretera.jpg);
+    background-repeat: repeat;
 }
 
 img.auto {
@@ -59,7 +60,8 @@ img.auto {
 }
 
 .formulario {
-    margin: 0 0 2% 45%;
+    margin: 0 0 2% 30%;
+    padding: 10px;
 }
 
 input {
@@ -86,11 +88,15 @@ p.flechas {
     margin-top: 14px;
 }
 
+footer {
+    text-align: center;
+    margin: 2% 0 2% 0;
+}
+
 button {
     border-radius: 50px;
     background-color: rgb(168, 17, 17);
     padding: 8px 13px 8px 13px;
-    margin: 10% 0 5% 32%;
 }
 
 a {
@@ -147,7 +153,6 @@ a {
     
     button {
         padding: 20px 30px 20px 30px;
-        margin: 3% 0 5% 42%;
     }
 
     a {
