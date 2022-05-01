@@ -1,0 +1,157 @@
+h1:hover {
+    font-size: 500%;
+    transition: 
+        font-size 0.6s;
+}
+
+button:hover {
+    background-color: #eb937d;
+    border: solid 1px #eb937d;
+    transition:
+        background-color 0.7s;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #8f3926;
+    transition:
+        color 0.5s;
+}
+
+input:focus {
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: #232C50;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(./../img/fondoVelocimetro.jpg);
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive, sans-serif;
+    text-align: center;
+    font-size: 340%;
+    color: #999;
+    margin: 14%;
+}
+
+h4 {
+    color: rgb(206, 190, 190);
+    margin: 14% 16% 14% 16%;
+    text-align: center;
+}
+
+main section#imagenyFormulario {
+    padding-top: 5%;
+    background-image: url(./../img/fondocarretera.jpg);
+}
+
+img.auto {
+    width: 70%;
+    margin: -8% 5% 1.5% 14%;
+}
+
+.formulario {
+    margin: 0 0 2% 45%;
+}
+
+input {
+    border-radius: 30px;
+    padding: 6px;
+}
+
+section.instrucciones {
+    margin-top: 10%;
+    text-align: center;
+    color: #999;
+}
+
+p.atencion {
+    font-size: 126%;
+    font-weight: bold;
+    color: 	#e64646;
+    margin-top: 20px;
+}
+
+p.flechas {
+    font-size: 114%;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+button {
+    border-radius: 50px;
+    background-color: rgb(168, 17, 17);
+    padding: 8px 13px 8px 13px;
+    margin: 10% 0 5% 32%;
+}
+
+a {
+    font-family: 'Courgette', cursive;
+    color: rgb(136, 122, 122);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 376px) {
+
+    body {
+        background-image: url(./../img/fondoVelocimetroEscritorio.jpg);
+    }
+
+    h1 {
+        font-size: 400%;
+        margin: 5% 0 0 0;
+    }
+    
+    h4 {
+        margin: 2% 0 5% 0;
+    }
+
+    img.auto {
+        width: 40%;
+        margin: -5% 5% 0 30%;
+    }
+    
+    .formulario {
+        margin: -2% 0 0 58%;
+    }
+
+    input {
+        border-radius: 50px;
+        padding: 20px;
+    }
+
+    section.instrucciones {
+        color: rgb(235, 229, 229);
+        margin-top: 5%;
+    }
+
+    p.atencion {
+        font-size: 200%;
+        color: #f7e547;
+        margin-top: 0;
+    }
+    
+    p.flechas {
+        font-size: 130%;
+    }
+    
+    button {
+        padding: 20px 30px 20px 30px;
+        margin: 3% 0 5% 42%;
+    }
+
+    a {
+        font-size: 150%;
+    }
+
+}

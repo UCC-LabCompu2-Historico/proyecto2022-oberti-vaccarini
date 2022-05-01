@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive, sans-serif;
+    text-align: center;
+    font-size: 340%;
+    color: #999;
+    margin: 4%;
+}
+
+body {
+    background-image: url(./../img/fondoVelocimetroJuegoCelular.jpg.jpeg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 376px) {
+
+    body {
+        background-image: url(./../img/fondoVelocimetroJuego.jpg);
+    }
+}
