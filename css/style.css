@@ -61,7 +61,7 @@ img.auto {
 
 .formulario {
     margin: 0 0 2% 30%;
-    padding: 10px;
+    padding: 4px;
 }
 
 input {
@@ -129,6 +129,7 @@ a {
     
     .formulario {
         margin: -2% 0 0 58%;
+        padding: 0;
     }
 
     input {
