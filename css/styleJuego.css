@@ -46,16 +46,15 @@ div#canvas {
     background: #FFD700;
 }
 
-footer {
+main div.botonesChoques {
     text-align: center;
-    margin: 3% 0 1% 0;
+    margin-top: 5%;
 }
 
 button {
     border-radius: 50px;
     background-color: rgb(23, 23, 201);
     padding: 8px 13px 8px 13px;
-    margin: 0 10% 0 10%;
 }
 
 button a {
@@ -64,6 +63,14 @@ button a {
     font-weight: bold;
     color: #999;
     text-decoration: none;
+}
+
+footer {
+    color: rgb(245, 237, 237);
+    text-align: start;
+    font-size: 50%;
+    position: fixed;
+    bottom: 0;
 }
 
 
@@ -91,15 +98,16 @@ button a {
         height: 30px;
     }
 
-    footer {
-        margin: 3% 0 1% 0;
-    }
-
     button {
         margin: 0 10% 0 10%;
     }
 
     button a {
         font-size: 20px;
+    }
+
+    footer {
+        color: rgb(59, 54, 54);
+        font-size: 80%;
     }
 }

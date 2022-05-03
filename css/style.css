@@ -88,7 +88,7 @@ p.flechas {
     margin-top: 14px;
 }
 
-footer {
+div#botonJuego {
     text-align: center;
     margin: 2% 0 2% 0;
 }
@@ -104,6 +104,14 @@ a {
     color: rgb(136, 122, 122);
     text-decoration: none;
     font-weight: bold;
+}
+
+footer {
+    color: rgb(153, 147, 138);
+    text-align: start;
+    font-size: 50%;
+    position: fixed;
+    bottom: 0;
 }
 
 
@@ -160,4 +168,8 @@ a {
         font-size: 150%;
     }
 
+    footer {
+        color: rgb(226, 223, 219);
+        font-size: 80%;
+    }
 }
