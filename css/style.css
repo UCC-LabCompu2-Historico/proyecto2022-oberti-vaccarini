@@ -54,6 +54,7 @@ h4 {
 }
 
 input {
+    font-family: 'Vollkorn';
     border-radius: 30px;
     padding: 6px;
 }
@@ -162,6 +163,7 @@ footer {
     }
 
     input {
+        font-size: 115%;
         border-radius: 50px;
         padding: 20px;
     }
