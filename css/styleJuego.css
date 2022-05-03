@@ -1,13 +1,27 @@
-button:hover {
+main section#botones div.botonesChoques button:hover {
     background-color: #5e6ace;
     border: solid 1px #5e6ace;
     transition:
         background-color 0.7s;
 }
 
-a:hover {
+main section#botones div.botonesChoques button a:hover {
     font-weight: bold;
     color: #0a0942;
+    transition:
+        color 0.5s;
+}
+
+main section#botones div.botonPaginaPrincipal button:hover {
+    background-color: #eb937d;
+    border: solid 1px #eb937d;
+    transition:
+        background-color 0.7s;
+}
+
+main section#botones div.botonPaginaPrincipal button a:hover {
+    font-weight: bold;
+    color: #8f3926;
     transition:
         color 0.5s;
 }
@@ -46,12 +60,24 @@ div#canvas {
     background: #FFD700;
 }
 
-main div.botonesChoques {
+main section#botones div.botonesChoques {
     text-align: center;
     margin-top: 5%;
 }
 
-button {
+main section#botones div.botonPaginaPrincipal {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+main section#botones div.botonPaginaPrincipal button {
+    border-radius: 50px;
+    background-color: rgb(168, 17, 17);
+    padding: 8px 13px 8px 13px;
+}
+
+main section#botones div.botonesChoques button {
     border-radius: 50px;
     background-color: rgb(23, 23, 201);
     padding: 8px 13px 8px 13px;
