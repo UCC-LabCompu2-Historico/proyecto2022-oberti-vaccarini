@@ -101,10 +101,15 @@ main h2, main h4, main p, main ul li {
     margin: 3% 0 3% 0;
 }
 
-main p a {
+span#choque {
+    color: #0e0c58;
+    font-weight: bold;
+}
+
+main p a.energiaCinetica {
     font-weight: bold;
     color: rgb(23, 23, 201);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 h2, h4, p.formula {
