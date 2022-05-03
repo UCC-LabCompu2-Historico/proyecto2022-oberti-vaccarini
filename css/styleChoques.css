@@ -1,3 +1,5 @@
+/*PSEUDOSELECTORES*/
+
 h1:hover {
     font-size: 500%;
     transition: 
@@ -32,6 +34,9 @@ p.formula:hover {
         color: 0.8s;
 }
 
+
+/*GENERAL*/
+
 * {
     margin: 0;
 }
@@ -45,32 +50,15 @@ header {
     text-align: center;
 }
 
+main {
+    margin: 2% 1.5% 0 1.5%;
+}
+
 h1 {
     font-family: 'Luckiest Guy', cursive, sans-serif;
     font-size: 340%;
     color: #999;
     margin: 8%;
-}
-
-img.choque {
-    width: 70%;  
-}
-
-main {
-    margin: 2% 1.5% 0 1.5%;
-}
-
-main section {
-    margin: 0 0 4% 0;
-    text-align: justify;
-}
-
-section.botones {
-    text-align: center;
-}
-
-main section.botones button {
-    margin: 0 0 0 2%;
 }
 
 button {
@@ -87,6 +75,37 @@ button a {
     text-decoration: none;
 }
 
+ul li {
+    list-style-type: disc;
+}
+
+
+/*HEADER*/
+
+img.choque {
+    width: 70%;  
+}
+
+
+/*MAIN*/
+
+main section {
+    margin: 0 0 4% 0;
+    text-align: justify;
+}
+
+/*botones para volver a jugar o ir a la explicacion del choque*/
+
+section.botones {
+    text-align: center;
+}
+
+main section.botones button {
+    margin: 0 0 0 2%;
+}
+
+/*explicaciones sobre los choques*/
+
 main h2, main h4 {
     font-size: 240%;
 }
@@ -101,17 +120,6 @@ main h2, main h4, main p, main ul li {
     margin: 3% 0 3% 0;
 }
 
-span#choque {
-    color: #0e0c58;
-    font-weight: bold;
-}
-
-main p a.energiaCinetica {
-    font-weight: bold;
-    color: rgb(23, 23, 201);
-    text-decoration: underline;
-}
-
 h2, h4, p.formula {
     text-align: center;
 }
@@ -121,9 +129,20 @@ p.formula {
     font-weight: bold;
 }
 
-ul li {
-    list-style-type: disc;
+span#choque {
+    color: #0e0c58;
+    font-weight: bold;
 }
+
+/*explicacion energia cinetica*/
+
+main p a.energiaCinetica {
+    font-weight: bold;
+    color: rgb(23, 23, 201);
+    text-decoration: underline;
+}
+
+/*video del auto andando*/
 
 div.energiaCinetica div.video {
     text-align: center;
@@ -134,11 +153,16 @@ div.energiaCinetica div.video video {
     margin-bottom: 5%;
 }
 
+/*boton para volver al juego*/
+
 div.botonSeguirJugando {
     text-align: center;
     margin-top: 4%;
     margin-bottom: 4%;
 }
+
+
+/*FOOTER*/
 
 footer {
     color: rgb(59, 54, 54);
@@ -149,17 +173,39 @@ footer {
 }
 
 
+
+
+/*DESKTOPVERSION*/
+
 @media screen and (min-width: 500px) {
+
+    /*GENERAL*/
 
     h1 {
         font-size: 400%;
         margin: 2% 0 2% 0;
     }
-        
+
+    button a {
+        font-size: 20px;
+    }
+
+    p, h2, h4 {
+        margin: 0 0 3% 0;
+    }
+
+
+    /*HEADER*/
+
     img.choque {
         width: 40%; 
         margin: 0 0 0 0;
     }
+
+
+    /*MAIN*/
+
+    /*botones para volver a jugar o ir a la explicacion del choque*/
 
     section.botones {
         text-align: start;
@@ -169,13 +215,7 @@ footer {
         margin: 0 0 0 21%;
     }
 
-    button a {
-        font-size: 20px;
-    }
-
-    main p, main h2, main h4 {
-        margin: 0 0 3% 0;
-    }
+    /*explicaciones sobre los choques*/
 
     h2, h3, p.formula {
         font-weight: bold;
@@ -186,9 +226,14 @@ footer {
         font-size: 170%;
     }
 
+    /*video del auto andando*/
+
     section.energiaCinetica video {
         width: 60%;
     }
+
+
+    /*FOOTER*/
 
     footer {
         font-size: 80%;

@@ -1,3 +1,5 @@
+/*PSEUDOSELECTORES*/
+
 main section#botones div.botonesChoques button:hover {
     background-color: #5e6ace;
     border: solid 1px #5e6ace;
@@ -26,6 +28,9 @@ main section#botones div.botonPaginaPrincipal button a:hover {
         color 0.5s;
 }
 
+
+/*GENERAL*/
+
 * {
     margin: 0;
 }
@@ -41,8 +46,21 @@ h1 {
 body {
     background-image: url(./../img/fondoVelocimetroJuegoCelular.jpg.jpeg);
     background-size: 120%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
+
+button a {
+    font-family: 'Courgette', cursive;
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-decoration: none;
+}
+
+
+/*MAIN*/
+
+/*canvas*/
 
 div#canvas {
     margin-top: 20%;
@@ -59,6 +77,8 @@ div#canvas {
     height: 15px;
     background: #FFD700;
 }
+
+/*botones para ir a los tipos de choques o volver a la pagina principal*/
 
 main section#botones div.botonesChoques {
     text-align: center;
@@ -83,13 +103,8 @@ main section#botones div.botonesChoques button {
     padding: 8px 13px 8px 13px;
 }
 
-button a {
-    font-family: 'Courgette', cursive;
-    font-size: 12px;
-    font-weight: bold;
-    color: #999;
-    text-decoration: none;
-}
+
+/*FOOTER*/
 
 footer {
     color: rgb(245, 237, 237);
@@ -100,7 +115,14 @@ footer {
 }
 
 
+
+
+
+/*DESKTOPVERSION*/
+
 @media screen and (min-width: 500px) {
+
+    /*GENERAL*/
 
     body {
         background-image: url(./../img/fondoVelocimetroJuego.jpg);
@@ -110,6 +132,19 @@ footer {
         margin: 4%;
     }
 
+    button {
+        margin: 0 10% 0 10%;
+    }
+
+    button a {
+        font-size: 20px;
+    }
+
+
+    /*MAIN*/
+
+    /*canvas*/
+    
     div#canvas {
         margin-top: 4%;
     }
@@ -124,13 +159,8 @@ footer {
         height: 30px;
     }
 
-    button {
-        margin: 0 10% 0 10%;
-    }
 
-    button a {
-        font-size: 20px;
-    }
+    /*FOOTER*/
 
     footer {
         color: rgb(59, 54, 54);

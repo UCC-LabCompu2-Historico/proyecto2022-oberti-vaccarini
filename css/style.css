@@ -1,3 +1,5 @@
+/*PSEUDOSELECTORES*/
+
 h1:hover {
     font-size: 500%;
     transition: 
@@ -26,6 +28,9 @@ input::placeholder {
     color: #232C50;
 }
 
+
+/*GENERAL*/
+
 * {
     margin: 0;
 }
@@ -48,6 +53,37 @@ h4 {
     text-align: center;
 }
 
+input {
+    border-radius: 30px;
+    padding: 6px;
+}
+
+button {
+    border-radius: 50px;
+    background-color: rgb(168, 17, 17);
+    padding: 8px 13px 8px 13px;
+}
+
+a {
+    font-family: 'Courgette', cursive;
+    color: rgb(136, 122, 122);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*HEADER*/
+
+span#tipoChoque {
+    color: rgb(53, 203, 230);
+    font-weight: bold;
+}
+
+
+/*MAIN*/
+
+/*formulario e imagen auto*/
+
 main section#imagenyFormulario {
     padding-top: 5%;
     background-image: url(./../img/fondoCarretera.jpg);
@@ -64,10 +100,7 @@ img.auto {
     padding: 4px;
 }
 
-input {
-    border-radius: 30px;
-    padding: 6px;
-}
+/*explicacion de como jugar*/
 
 section.instrucciones {
     margin-top: 10%;
@@ -88,23 +121,15 @@ p.flechas {
     margin-top: 14px;
 }
 
+/*boton para empezar a jugar*/
+
 div#botonJuego {
     text-align: center;
     margin: 2% 0 2% 0;
 }
 
-button {
-    border-radius: 50px;
-    background-color: rgb(168, 17, 17);
-    padding: 8px 13px 8px 13px;
-}
 
-a {
-    font-family: 'Courgette', cursive;
-    color: rgb(136, 122, 122);
-    text-decoration: none;
-    font-weight: bold;
-}
+/*FOOTER*/
 
 footer {
     color: rgb(153, 147, 138);
@@ -115,7 +140,13 @@ footer {
 }
 
 
+
+
+/*DESKTOPVERSION*/
+
 @media screen and (min-width: 500px) {
+
+    /*GENERAL*/
 
     body {
         background-image: url(./../img/fondoVelocimetroEscritorio.jpg);
@@ -130,6 +161,23 @@ footer {
         margin: 2% 0 5% 0;
     }
 
+    input {
+        border-radius: 50px;
+        padding: 20px;
+    }
+    
+    button {
+        padding: 20px 30px 20px 30px;
+    }
+
+    a {
+        font-size: 150%;
+    }
+
+    /*MAIN*/
+
+    /*formulario e imagen auto*/
+
     img.auto {
         width: 40%;
         margin: -5% 5% 0 30%;
@@ -140,10 +188,7 @@ footer {
         padding: 0;
     }
 
-    input {
-        border-radius: 50px;
-        padding: 20px;
-    }
+    /*explicacion de como jugar*/
 
     section.instrucciones {
         color: rgb(235, 229, 229);
@@ -160,13 +205,8 @@ footer {
         font-size: 130%;
     }
     
-    button {
-        padding: 20px 30px 20px 30px;
-    }
 
-    a {
-        font-size: 150%;
-    }
+    /*FOOTER*/
 
     footer {
         color: rgb(226, 223, 219);
