@@ -65,18 +65,10 @@ main section {
     text-align: justify;
 }
 
-section.botones {
-    text-align: center;
-}
-
 button {
     border-radius: 50px;
     background-color: rgb(23, 23, 201);
     padding: 8px 13px 8px 13px;
-}
-
-main section.botones button {
-    margin: 0 0 0 2%;
 }
 
 button a {
