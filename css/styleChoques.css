@@ -114,7 +114,7 @@ main p, main ul li {
     font-size: 110%;
 }
 
-main h2, main h4, main p, main ul li {
+header h2, main h4, main p, main ul li {
     font-family: 'Vollkorn', serif;
     font-weight: 500;
     margin: 3% 0 3% 0;
