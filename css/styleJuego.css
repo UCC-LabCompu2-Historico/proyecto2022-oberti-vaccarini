@@ -73,8 +73,8 @@ div#juego{
     background-color: #38c575;
     height: 92px;
     width: 120px;
-    top: 0px;
-    left: 0px;
+    top: 10px;
+    left: 10px;
     border-radius: 10px;
     position: absolute;
  }
