@@ -5,6 +5,8 @@ window.onload = function () {
 
 let x = 0;
 let y = 0;
+let xMax = 0;
+let yMax = 0;
 //variable del auto
 let auto = document.getElementById('auto');
 

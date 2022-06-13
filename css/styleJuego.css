@@ -70,9 +70,9 @@ div#juego{
 }
 
 #auto{
-    background-color: #38c575;
-    height: 92px;
-    width: 120px;
+    background-size: 250px 130px;
+    height: 40%;
+    width: 30%;
     top: 0px;
     left: 0px;
     border-radius: 10px;
@@ -97,8 +97,8 @@ div#juego{
     right: 0px;
 }
 
-/*.auto {
-    width: 20%;
+.auto {
+    width: 40%;
     height: 38%;
     position: absolute;
     bottom: 22px;
@@ -107,6 +107,16 @@ div#juego{
     background: url(./../img/auto.png) no-repeat;
     background-size: 250px 130px;
     background-position-x: 0px;
+}
+/*
+.obstaculo {
+    width: 46px;
+    height: 96px;
+    position: absolute;
+    bottom: 16px;
+    left: 600px;
+    z-index: 1;
+    background: url(./../img/bola.png) no-repeat;
 }*/
 
 /*botones para ir a los tipos de choques o volver a la pagina principal*/
