@@ -1,25 +1,39 @@
-let auto = document.getElementById("auto");
-let velocidad = 50;
-let mTop = 0;
-
-document.addEventListener("keydown"); {
-    function e(){
-    if (e.keyCode == "38"){
-        moverArriba();
-    }
-    if (e.keyCode == "40"){
-        moverAbajo();
-    }
-    }
+window.onload = function () {
+    //instrucciones para jugar
+    alert('Use las teclas ⍇, ⍐, ⍗, ⍈ para controlar el automóvil y moverse hacia arriba y abajo. Presione aceptar para iniciar el juego');
 }
 
+let x = 0;
+let y = 0;
+//variable del auto
+let auto = document.getElementById('auto');
 
-function moverArriba(){
-    mTop -= velocidad ;
-    auto.marginTop = mTop + "px" ;
+//definimos funciones de movimiento mediante las flechas en el teclado
+function movimiento(event){
+    //flecha derecha
+	if(event.keyCode == '39'){
+		x= x + 100;
+		auto.style.left = x + 'px';
+	}
+
+    //flecha izquierda
+	if(event.keyCode == '37'){
+		x= x - 100;
+		auto.style.left = x +'px';	
+	}
+	
+    //flecha arriba
+	if(event.keyCode == '38'){
+		y = y + 100;                               
+		auto.style.top = (-y) + 'px';
+	}
+
+    //flecha abajo
+	if(event.keyCode == '40'){
+		y = y - 100;                            
+		auto.style.top = (-y) + 'px';
+	}
+
 }
 
-function moverAbajo(){
-    mTop += velocidad ;
-    auto.marginTop = mTop + "px" ; 
-}
+window.onkeyup = movimiento;

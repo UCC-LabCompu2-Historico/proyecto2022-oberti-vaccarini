@@ -69,6 +69,16 @@ div#juego{
     align-items: center;
 }
 
+#auto{
+    background-color: #38c575;
+    height: 92px;
+    width: 120px;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    position: absolute;
+ }
+
 .contenedor {
     width: 100%;
     height: 360px;
@@ -87,7 +97,7 @@ div#juego{
     right: 0px;
 }
 
-.auto {
+/*.auto {
     width: 20%;
     height: 38%;
     position: absolute;
@@ -97,7 +107,7 @@ div#juego{
     background: url(./../img/auto.png) no-repeat;
     background-size: 250px 130px;
     background-position-x: 0px;
-}
+}*/
 
 /*botones para ir a los tipos de choques o volver a la pagina principal*/
 

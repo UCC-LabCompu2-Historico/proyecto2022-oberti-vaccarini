@@ -13,7 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/icono.jpg">
     <link rel="stylesheet" href="./css/styleJuego.css">
-    <script src="./js/script.js"></script>
 </head>
 
 <body>
@@ -23,15 +22,15 @@
     </header>
 
     <main>
-        
-        <div id="juego">
-            <div class="contenedor">
+
+      <div id="juego">
+            <div id="fondo" class="contenedor">
                 
                 <canvas class="calleLimite">
                     Tu navegador no soporta el tag de HTML5 canvas.
                 </canvas>
                 <div class="auto" id="auto"></div>
-    
+                <div class="obstaculo"></div>
             </div>
         </div>
 
@@ -52,5 +51,7 @@
         <p>Paulina Oberti Busso - Maria Victoria Vaccarini</p>
     </footer>
 
+    <script src="./js/script.js"></script>
+    
 </body>
 </html>
