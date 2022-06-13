@@ -95,7 +95,7 @@ div#juego{
     left: 42px;
     z-index: 2;
     background: url(./../img/auto.png) no-repeat;
-    background-size: 336px 130px;
+    background-size: 250px 130px;
     background-position-x: 0px;
 }
 
