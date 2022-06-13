@@ -6,14 +6,14 @@ h1:hover {
         font-size 0.6s;
 }
 
-button:hover {
+.empezarJuego:hover {
     background-color: #eb937d;
     border: solid 1px #eb937d;
     transition:
         background-color 0.7s;
 }
 
-a:hover {
+.empezarJuego:hover {
     font-weight: bold;
     color: #8f3926;
     transition:
@@ -55,21 +55,6 @@ h4 {
 
 input {
     font-family: 'Vollkorn';
-    border-radius: 30px;
-    padding: 6px;
-}
-
-button {
-    border-radius: 50px;
-    background-color: rgb(168, 17, 17);
-    padding: 8px 13px 8px 13px;
-}
-
-a {
-    font-family: 'Courgette', cursive;
-    color: rgb(136, 122, 122);
-    text-decoration: none;
-    font-weight: bold;
 }
 
 
@@ -86,9 +71,14 @@ span#tipoChoque {
 /*formulario e imagen auto*/
 
 main section#imagenyFormulario {
-    padding-top: 5%;
+    padding-top: 2%;
     background-image: url(./../img/fondoCarretera.jpeg);
     background-repeat: repeat;
+}
+
+form {
+    text-align: end;
+    margin-right: 10%;
 }
 
 img.auto {
@@ -96,39 +86,15 @@ img.auto {
     margin: -8% 5% 1.5% 14%;
 }
 
-.formulario {
-    margin: 0 0 2% 30%;
-    padding: 4px;
-}
-
-/*explicacion de como jugar*/
-
-section.instrucciones {
-    margin-top: 10%;
-    text-align: center;
-    color: #999;
-}
-
-p.atencion {
-    font-size: 126%;
+.empezarJuego {
+    border-radius: 50px;
+    background-color: rgb(211, 37, 37);
+    margin-left: 2%;
+    font-family: 'Courgette', cursive;
+    color: rgb(31, 29, 29);
+    text-decoration: none;
     font-weight: bold;
-    color: 	#e64646;
-    margin-top: 20px;
 }
-
-p.flechas {
-    font-size: 114%;
-    font-weight: bold;
-    margin-top: 14px;
-}
-
-/*boton para empezar a jugar*/
-
-div#botonJuego {
-    text-align: center;
-    margin: 2% 0 2% 0;
-}
-
 
 /*FOOTER*/
 
@@ -184,29 +150,7 @@ footer {
         width: 40%;
         margin: -5% 5% 0 30%;
     }
-    
-    .formulario {
-        margin: -2% 0 0 58%;
-        padding: 0;
-    }
 
-    /*explicacion de como jugar*/
-
-    section.instrucciones {
-        color: rgb(235, 229, 229);
-        margin-top: 5%;
-    }
-
-    p.atencion {
-        font-size: 200%;
-        color: #f7e547;
-        margin-top: 0;
-    }
-    
-    p.flechas {
-        font-size: 130%;
-    }
-    
 
     /*FOOTER*/
 

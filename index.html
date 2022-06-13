@@ -32,33 +32,24 @@
     </header>
 
     <main>
+
         <section id="imagenyFormulario">
-            <form class="formulario" action="#" method=GET>
+
+            <form action="/login.php" id="formulario">
                 <label for="nombre"></label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre: ">
-            </form>
+                <input type="text" name="usuario" id="usuario" placeholder="Ingrese su nombre: ">
+                <input type="submit" value="¡EMPECEMOS!" class="empezarJuego">
+              </form>
 
             <img class="auto" src="./img/auto.png" alt="Imagen auto">
         </section>
-        
-        <section class="instrucciones">
-            <p class="atencion">
-                <i class="fas fa-exclamation-triangle"></i>
-                ¡IMPORTANTE!
-                <i class="fas fa-exclamation-triangle"></i>
-            </p>
-
-            <p class="flechas">Para cambiar de carril usar ⇧ y ⇩</p>
-        </section>
-
-        <div id="botonJuego">
-            <button class="boton" type="button"><a href="./juego.html">¡EMPECEMOS!</a></button>
-        </div>
     </main>
 
     <footer>
         <p>Paulina Oberti Busso - Maria Victoria Vaccarini</p>
     </footer>
+
+    <script src="./js/indexScript.js"></script>
 
 </body>
 </html>
