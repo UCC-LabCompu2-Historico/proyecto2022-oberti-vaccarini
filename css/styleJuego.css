@@ -69,16 +69,6 @@ div#juego{
     align-items: center;
 }
 
-#auto{
-    background-color: #38c575;
-    height: 92px;
-    width: 120px;
-    top: 10px;
-    left: 10px;
-    border-radius: 10px;
-    position: absolute;
- }
-
 .contenedor {
     width: 100%;
     height: 360px;
@@ -97,17 +87,45 @@ div#juego{
     right: 0px;
 }
 
-/*.auto {
-    width: 20%;
+.auto {
+    width: 40%;
     height: 38%;
     position: absolute;
-    bottom: 22px;
+    bottom: 28px;
     left: 42px;
+    top: 0px;
+    left: 0px;
     z-index: 2;
     background: url(./../img/auto.png) no-repeat;
     background-size: 250px 130px;
     background-position-x: 0px;
-}*/
+    border-radius: 10px;
+}
+
+.bola {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    background: url(./../img/bolaBillar.png) no-repeat;
+    background-size: 190px 80px;
+    border-radius: 10px;
+}
+
+.pared {
+    position: absolute;
+    background: url(./../img/pared.png) no-repeat;
+    background-size: 190px 80px;
+}
+
+.pared#pared1 {
+    top: 238px;
+    right: 0;
+}
+
+.pared#pared2 {
+    top: 15px;
+    right: 0;
+}
 
 /*botones para ir a los tipos de choques o volver a la pagina principal*/
 
