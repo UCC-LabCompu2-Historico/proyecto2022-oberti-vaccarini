@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
     <link rel="shortcut icon" href="img/icono.jpg">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/botones.js"></script>
 </head>
 
 <body>
@@ -36,10 +35,10 @@
 
         <section id="imagenyFormulario">
 
-            <form action="/login.php" id="formulario">
+            <form action="" id="formulario" action="#" method=GET>
                 <label for="nombre"></label>
-                <input type="text" name="usuario" id="usuario" placeholder="Ingrese su nombre: " required>
-                <input type="submit" value="¡EMPECEMOS!" class="empezarJuego">
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre: ">
+                <button class="boton" type="button" onclick="validate()">¡EMPECEMOS!</button>
             </form>
 
             <img class="auto" src="./img/auto.png" alt="Imagen auto">
@@ -52,7 +51,7 @@
     </footer>
 
     <script src="./js/indexScript.js"></script>
-    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>
 </html>

@@ -1,12 +1,16 @@
 window.onload = function () {
 
 	//instrucciones para jugar
-	alert('Use las teclas ⍇, ⍐, ⍗, ⍈ para controlar el automóvil y moverse hacia arriba y abajo, elija hacia que objeto quiere dirigirse. Presione aceptar para iniciar el juego');
+	swal({
+		title: "✨¡JUGUEMOS!✨",
+		text: "Use las teclas ⬅️, ⬆️, ⬇️, ➡️ para controlar el automóvil y moverse hacia arriba y abajo, elija hacia que objeto quiere dirigirse. Presione ACEPTAR para iniciar el juego",
+		icon: "success",
+		button: "ACEPTAR",
+	  });
 
-	let x = 0;
-	let y = 0;
-	let xMax = 0;
-	let yMax = 0;
+	var x = 0;
+	var y = 0;
+
 	//variable del auto
 	var auto = document.getElementById('auto');
 
@@ -36,10 +40,10 @@ window.onload = function () {
 			auto.style.top = (-y) + 'px';
 		}
 
-		//colision con objetos
-
 	}
 
 	window.onkeyup = movimiento;
-}
 
+	//colision con objetos
+	
+}
