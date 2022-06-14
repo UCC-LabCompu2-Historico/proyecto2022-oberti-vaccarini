@@ -19,4 +19,4 @@ _Este proyecto se trata de un juego de choques en el cual, las personas, van a a
 * JS (en un futuro)
 
 :calendar:
->**Fecha de entrega:** _04-05-22_
+>**Fecha de entrega:** _04-05-22_ _15-06-22_
