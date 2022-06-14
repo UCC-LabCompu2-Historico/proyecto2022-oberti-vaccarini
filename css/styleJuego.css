@@ -64,11 +64,6 @@ main {
     text-align: center;
 }
 
-div#juego{
-    display: flex;
-    align-items: center;
-}
-
 .contenedor {
     width: 100%;
     height: 360px;
@@ -111,18 +106,18 @@ div#juego{
     border-radius: 10px;
 }
 
-.pared {
+.pared1, .pared2 {
     position: absolute;
     background: url(./../img/pared.png) no-repeat;
     background-size: 190px 80px;
 }
 
-.pared#pared1 {
+.pared1 {
     top: 238px;
     right: 0;
 }
 
-.pared#pared2 {
+.pared2 {
     top: 15px;
     right: 0;
 }
