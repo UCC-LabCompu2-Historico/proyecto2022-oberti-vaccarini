@@ -25,4 +25,4 @@ function verify(id) {
     }
 
     this.submit();
-}
+}*/

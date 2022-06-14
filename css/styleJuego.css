@@ -99,28 +99,21 @@ main {
 
 .bola {
     position: absolute;
-    top: 120px;
-    right: 0;
+    top: 10px;
+    right: 20px;
     background: url(./../img/bolaBillar.png) no-repeat;
-    background-size: 190px 80px;
+    background-size: 250px 150px;
     border-radius: 10px;
 }
 
-.pared1, .pared2 {
+.pared1 {
     position: absolute;
     background: url(./../img/pared.png) no-repeat;
-    background-size: 190px 80px;
+    background-size: 200px 160px;
+    top: 190px;
+    right: 20px;
 }
 
-.pared1 {
-    top: 238px;
-    right: 0;
-}
-
-.pared2 {
-    top: 15px;
-    right: 0;
-}
 
 /*botones para ir a los tipos de choques o volver a la pagina principal*/
 
