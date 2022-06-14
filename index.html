@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
     <link rel="shortcut icon" href="img/icono.jpg">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/botones.js"></script>
 </head>
 
 <body>
@@ -37,12 +38,13 @@
 
             <form action="/login.php" id="formulario">
                 <label for="nombre"></label>
-                <input type="text" name="usuario" id="usuario" placeholder="Ingrese su nombre: ">
+                <input type="text" name="usuario" id="usuario" placeholder="Ingrese su nombre: " required>
                 <input type="submit" value="¡EMPECEMOS!" class="empezarJuego">
             </form>
 
             <img class="auto" src="./img/auto.png" alt="Imagen auto">
         </section>
+
     </main>
 
     <footer>
@@ -50,6 +52,7 @@
     </footer>
 
     <script src="./js/indexScript.js"></script>
+    
 
 </body>
 </html>
