@@ -16,7 +16,8 @@ _Este proyecto se trata de un juego de choques en el cual, las personas, van a a
  
 * HTML5
 * CSS
-* JS (en un futuro)
+* JS
 
 :calendar:
->**Fecha de entrega:** _04-05-22_
+>**Fecha de entrega 1:** _04-05-22_
+>>**Fecha de entrega 2:** _15-06-22_
