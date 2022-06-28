@@ -24,8 +24,8 @@ window.onload = function () {
 	var id2 = null;
   	clearInterval(id1);
 	clearInterval(id2);
-  	id1 = setInterval(frame1, 6);
-	id2 = setInterval(frame2, 6);
+  	id1 = setInterval(frame1, 5);
+	id2 = setInterval(frame2, 5);
 
 	//definimos funciones de movimiento mediante las flechas en el teclado
 	function movimiento(event){
