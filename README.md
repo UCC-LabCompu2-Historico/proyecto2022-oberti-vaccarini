@@ -5,7 +5,7 @@ Laboratorio de Computación II - 2022
 
 _Este proyecto se trata de un juego de choques en el cual, las personas, van a aprender acerca de los choques realizados en el juego. Estos choques están divididos en ELÁSTICOS e INELÁSTICOS._
 
-**Link de GitHub Pages:** https://ucc-labcompu2.github.io/proyecto2022-oberti-vaccarini/
+**Link de GitHub Pages:** https://ucc-labcompu2-Historico.github.io/proyecto2022-oberti-vaccarini/
 
 | **AUTORES**              | **CLAVE UCC** |
 |:------------------------:|:-------------:|
